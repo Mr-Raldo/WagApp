@@ -13,7 +13,7 @@ from .api import api_router
 urlpatterns = [
     path("django-admin/", admin.site.urls),
     path("admin/", include(wagtailadmin_urls)),
-   
+    path('blog/', include('blog.urls')),
     path("documents/", include(wagtaildocs_urls)),
     path("search/", search_views.search, name="search"),
      #! api url pattern
