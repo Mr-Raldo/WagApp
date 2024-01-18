@@ -21,7 +21,7 @@ from wagtail import blocks
 
 
 from modelcluster.contrib.taggit import  ClusterTaggableManager
-from taggit.models import TaggedItemBase
+from taggit.models import TaggedItemBase    
 
 
 # * To capture responses from questionnaire page
